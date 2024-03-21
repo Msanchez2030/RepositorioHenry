@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Tarjeta de presentación</title>
 </head>
 <body>
-    <h1>Proyecto M1</h1>
+    <div>
+        <div class="Nombre">
+            <h1>Matias Elian Sanchez Benitez</h1>
+        </div>
+        <div class="Descrip">
+            <h3>¿Quien Soy?<br><br></h3>
+            <p>Mi nombre es Matias, soy de Argentina, provincia de buenos Aires. 
+                Me Introduje en el mundo de la informática junto con mi primer computadora, 
+            Luego conocí la programación, de la mano de C++, inspeccione algo de bases de datos, 
+            en Mysql y por ultimo realice un curso de Desarrollo Front End en donde aprendí las bases de HTML y CSS. 
+            Hoy me introduje a Soy Henry, para terminar de especializarme y lograr un futuro en el desarrollo.</p>
+        </div>
+        <div class="TecFav">
+            <h3>Mis tecnologías favoritas:</h3>
+            <ul class="ListaTec">
+                <li>
+                    <h3>MySql</h3>
+                    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png" alt="MySql">
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <img src="https://cdn.icon-icons.com/icons2/2108/PNG/96/javascript_icon_130900.png" alt="JavaScript">
+                </li>
+                <li>
+                    <h3>Python</h3>
+                    <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_python_icon_130221.png" alt="Python">
+                </li>
+            </ul>
+        </div>
+    </div>    
+    <div>
+        <div class="FormAct">
+            <h3>Mis Actividades favoritas</h3>
+            <form action="">
+                <ul>
+                    <li><input id="title" type="text" placeholder="Nombre de la actividad."></input></li>
+                    <li><textarea id="description" class="desc" placeholder="Descripcion de la actividad" cols="30" rows="10"></textarea></li>
+                    <li><input id="imgUrl" required type="url" placeholder="Link de imagen."></input></li>
+                    <li><button id="agregar" type="button">Agregar actividad</button></li>
+                </ul>
+            </form>
+        </div>
+        <div class="ContenedorPrin">
+        </div>
+    </div>
 </body>
+<script src="scripts/index.js"></script>
 </html>

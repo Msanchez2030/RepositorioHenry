@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: cyan;
+}
+.Nombre{
+    font-weight: bold;
+    font-size: 150%;
+    padding-top: 50px;
+}
+.Descrip{
+    background-color:cadetblue;
+    padding: 10px;
+    margin: 5% 20%;
+    border-radius: 20px;
+}
+h3{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.TecFav{
+    background-color: cadetblue;
+    margin: 5% 20%;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.TecFav .ListaTec {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.TecFav .ListaTec li:hover h3{
+    display: none;
+}
+.TecFav .ListaTec li:hover img{
+    width: 80%;
+}
+.TecFav .ListaTec li:hover{
+    background-color: black;
+}
+.TecFav .ListaTec  li{
+    background-color: darkcyan;
+    width: 150px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.TecFav .ListaTec li img{
+    width: 50%;
+    margin-top: 10px;
+}
+.FormAct li{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.FormAct li input{
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+}
+.FormAct li .desc{
+    width: 100%;
+    border-radius: 8px;
+    border: solid gray;
+    height: 100px;
+    padding-top: 0px;
+}
+.FormAct li button{
+    width: 80%;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.ContenedorPrin{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.Contenedores{
+    background-color: cadetblue;
+    width: 20%;
+    height: 250px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.Contenedores img{
+    width: 80%;
+    height: 60%;
+    margin-top: 10px;
+}
